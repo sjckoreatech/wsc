@@ -14,7 +14,7 @@ ${name}<br/>
 
 <sec:authorize access="isAnonymous()">
 <a href="/pc/park">공원</a>
-<a href="/user/signup">회원가입</a>
+<a href="/cc/culture">문화시설</a>
 </sec:authorize>
 
 <sec:authorize access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')">
